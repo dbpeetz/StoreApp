@@ -35,9 +35,7 @@ body {
 }
 
 #search {
-    float: right;
-    padding-bottom: 20px;
- 
+    float: right; 
 }
 
 #main-image {
