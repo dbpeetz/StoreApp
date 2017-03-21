@@ -30,7 +30,13 @@ body {
     margin-right: 10px;
     float: left;
 }
+.form-group {
+    float: right;
+}
 
+.form-group {
+    float: right;
+}
 #search {
     float: right;
     padding: 5px;

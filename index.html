@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Stock Image Store</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 <body>
@@ -13,9 +14,28 @@
             <img class="logo" src="img/forest.jpg" />
         </div>
         <!--title-->
-        <span id="header-name">Stock Image Store</span>
-        <!--search-->
-        <input type="search" id="search" placeholder="Search" />
+        <!--<span id="header-name">Stock Image Store</span>-->
+        <!--nav bar-->
+            <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <img class="logo" src="img/forest.jpg" />
+                        <a class="navbar" href="#">Stock Images Inc</a>
+                    </div>
+                    <ul class="navbar-labels">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">Page 1</a></li>
+                        <li><a href="#">Page 2</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="search-bar" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </nav>
+
         </section>
     </header>
     <!--Banner-->
