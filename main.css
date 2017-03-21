@@ -6,22 +6,19 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-family: 'Century Schoolbook';
-    
-
-
 }
 
 #logo-bar {
     width: 1000px;
     height: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 #header-name {
     font-size: 40px;
     color:azure;
     padding: 15px;
-    margin: 0px 0px 0px 0px;
+    margin: auto;
     text-align: center;
 
 }
@@ -35,7 +32,9 @@ body {
 }
 
 #search {
-    float: right; 
+    float: right;
+    padding: 5px;
+    margin: 10px 10px 0px 0px;
 }
 
 #main-image {
@@ -56,6 +55,20 @@ body {
     color: azure;
    
 }
+
+#recent-news {
+    float: right;
+    width: 300px;
+    margin: 20px 0px 20px 0px;
+}
+
+#recent-news > header {
+    margin-left: 5px;
+    color:antiquewhite;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
 footer {
     width: 100%;
     background-color:antiquewhite;
@@ -63,3 +76,4 @@ footer {
     padding: 5px 0px 0px 0px;
     border-radius: 5px;
 }
+
